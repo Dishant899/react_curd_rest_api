@@ -56,3 +56,70 @@ nav ul li {
   display: inline-block;
   padding: 10px;
 }
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.create-button {
+  background-color: #6d71e4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.delete-button {
+  background-color: #f06f8b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.edit-button {
+  background-color: #6f80f0;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#users_table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#users_table td, #users_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#users_table tr:nth-child(even){background-color: #f2f2f2;}
+
+#users_table tr:hover {background-color: #ddd;}
+
+#users_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}

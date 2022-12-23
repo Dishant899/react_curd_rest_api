@@ -11,10 +11,10 @@ function App() {
         <nav>
           <ul>
             <li>
-              <Link to="/">List Users</Link>
+              <Link to="/" class="button">List Users</Link>
             </li>
             <li>
-              <Link to="user/create">Create User</Link>
+              <Link to="user/create" class="create-button">Create User</Link>
             </li>
           </ul>
         </nav>
