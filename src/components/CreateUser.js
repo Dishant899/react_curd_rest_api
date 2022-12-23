@@ -28,7 +28,7 @@ export default function ListUser() {
         <div>
             <h1>Create user</h1>
             <form onSubmit={handleSubmit}>
-                <table cellSpacing="10">
+                <table cellSpacing="10" align="center">
                     <tbody>
                         <tr>
                             <th>
@@ -71,8 +71,8 @@ export default function ListUser() {
                             </td>
                         </tr>
                         <tr>
-                            <td colSpan="2" align ="right">
-                                <button>Save</button>
+                            <td colSpan="2" align ="center">
+                                <button  class="edit-button">Save</button>
                             </td>
                         </tr>
                     </tbody>
